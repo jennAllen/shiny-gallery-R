@@ -13,7 +13,7 @@ images <<- data.frame(src = list.files('www/img')) %>%
          key = hashids::encode(1e3 + as.integer(msec), hashid_settings(salt = 'this is my salt')))
 
 # Define UI for application that draws a histogram
-ui <- fluidPage(theme = shinytheme("superhero"),
+ui <- fluidPage(theme = shinytheme("NOT_superhero"),
    
    # Application title
     titlePanel(withTags(
